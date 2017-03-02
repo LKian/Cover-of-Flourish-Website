@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box; }
+body { 
+	font-size: 1em;
+	color: #000;
+	overflow-x: hidden; }
+
+nav {
+	width: 100%;
+	padding-top: 10px;
+	background-color: #eee;
+	text-align: center;  }
+nav ul {
+    display:inline-block; }
+nav ul li { 
+	margin: 10px;
+	display: inline-block; }
+nav ul li a, nav ul li a:visited {
+	color: #aaa;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: lato;
+	font-weight: lighter;
+	text-transform: uppercase;  }
+
+nav ul li a:hover {
+	color: #7ca; }
+.logo { 
+	display: inline;
+	float: left;
+	margin-left: 15px;
+	color: #fff;
+	background-color: #FD8A6D; 
+	height: 100px;
+	width: 100px;
+	font-family: cookie;
+	font-size: 2em;
+	border-radius: 50%;
+	text-decoration: none;
+	line-height: 100px;
+	font-weight: 100; }
+
+.mainContent {
+	height: 500px;
+	width: 100%;
+	background-image: url(images/breakfast.jpg); /*background-image: url(http://www.image.edu.in/images/course-banner/graphic-Design.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; }
+
+.columns {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	height: 200px;  }
+
+
+.third { 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	border: 3px solid #fff; }
+
+
+
+.third img {
+	height: 50%; }
+.third:first-child {
+	background: #ffd64d;
+	color: #fff;
+	position: relative; }
+.third:first-child h1 { 
+	font-size: 8em;
+	font-family: cookie; }
+.third:first-child h4 {  
+	font-family: arial;
+	font-weight: 200;
+	width: 75%;
+	position: absolute;
+	bottom: 55px;
+	right: 10px; }
+
+.third:nth-child(2) { 
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	background-color: #ccc;
+	color: #000;
+	background-image: url('images/coworkers.png');  /*background-image: url('https://www.coworker.com/template/img/about/img_right_spaces_pic.png');*/
+	background-size: cover; }
+.third:nth-child(2) p {
+	margin-top: 25px; }
+.favicons i {
+	margin: 10px;
+	color: #7ca;
+	cursor: pointer;
+	text-shadow: 1px 1px rgba(3, 2, 0, 0.5) }
+.favicons i:hover { 
+	transform: scale(1.2);
+	text-shadow: 1px 1px rgba(3, 2, 0, 0.9); }
+ 
+.third:nth-child(3) {  
+	background-size: cover;
+    background-image: url('images/chevron.png'); } /*background-image: url('http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0158/8997/yellow_chevron_14_x14-01_shop_preview.png');*/
+.third:nth-child(3) p {  
+	font-family: sans-serif;
+	text-transform: uppercase;
+	border: 6px solid #fff;
+	border-style: double;
+	border-radius: 75px;
+	text-align: center;
+	line-height: 150px;
+	margin: 25px auto;
+	height: 150px;
+	width: 150px;
+	background: #000;
+	color: #fff; }
+
+.third:nth-child(4) {  
+	background: #000;
+	color: #fff;
+	font-family: tahoma; }
+.third:nth-child(4) p {
+	margin: 20px auto;
+	font-size: 1.6em; }
+.third:nth-child(4) h1 {
+	margin: 20px auto;
+	border: 2px dotted #fff;
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	line-height: 75px;
+	font-weight: 100;
+	font-size: 1.6em; }
+
+.third:nth-child(5) { 
+	background-color: #E6DACA;
+	background-image: url('images/fox.png'); /*background-image: url('http://www.fox.ra.it/images/opengraph/fox-transparent.png');*/
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center bottom; }
+.third:nth-child(5) p {
+	font-family: "Century Gothic";
+	font-size: 1.7em;
+	text-align: left;
+	font-weight: 100;
+	margin: 10px 0 0 20px;  } 
+.third:nth-child(5) h1 {
+	font-family: 'Ubuntu Condensed'; 
+	font-size: 3em; }
+
+.third:nth-child(6) { 
+	background-color: #FD8A6D;
+	position: relative;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-transform: uppercase;
+	text-align: center;  }
+.third:nth-child(6) h4 {
+	position: absolute; 
+	top: 50%;
+	width: 100%;
+	font-weight: 100; 
+	font-family: monaco; }
+.third:nth-child(6) h1 {
+	position: absolute; 
+	top: 60%;
+	width: 100%; 
+	font-family: monaco;
+	font-size: 2.7em;
+	font-weight: 100; }
+.third:nth-child(6) p {
+	position: absolute; 
+	bottom: 5px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-size: 0.8em; 
+	font-family: courier, monospace;  }
+
+.third:nth-child(7) { 
+	background-color: #C0D9D3;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto; }
+.third:nth-child(7) h3 {
+	font-size: 1.6em;
+	color: #fff;
+	font-family: arial;
+	font-weight: 300; }
+.img-valign {
+  vertical-align: middle; }
+.textalign {
+  font-size: 6em; 
+  vertical-align: middle;
+  font-family: 'Ubuntu Condensed';  }
+
+.third:nth-child(8) { 
+	background-color: #B4AD9B; }
+.third:nth-child(8) h1 { 
+	font-family: cookie;
+	font-size: 3.5em; }
+.third:nth-child(8) p { 
+	font-family: tahoma;
+	font-size: 0.8em; }
+.third:nth-child(8) input[type="text"], input[type="email"] {
+	display: block; 
+	width: 80%;
+	font-family: courier;
+	margin: 12px auto;
+	padding: 5px 2px;
+	text-transform: uppercase;
+	outline:none;
+    border: 1px solid #777;
+    -webkit-box-shadow: 0px 0px 0px 0px  rgba(223, 225, 220, 0.2);
+    box-shadow: 0px 0px 0px 0px rgba(223, 225, 220, 0.2); }
+
+.third:nth-child(8) input[type="text"]:hover, input[type="email"]:hover, .third:nth-child(8) input[type="text"]:focus, input[type="email"]:focus {
+	border: 1px solid #333; }
+
+.third:nth-child(8) input[type="submit"] {
+	display: inline-block;
+	border: none;
+	background: none;
+	margin: 0 auto;
+	cursor: pointer;
+	text-transform: uppercase; }
+
+.third:nth-child(9) { 
+	position: relative;
+	background-color: #E6DACA;
+	overflow: hidden;
+	background-image: url('images/desk.png'); /*background-image: url('https://cdn.pixabay.com/photo/2015/12/08/00/48/desk-1082044_960_720.jpg');*/
+	background-size: cover; }
+.third:nth-child(9) h1 {
+	font-family: 'Ubuntu Condensed';
+	position: absolute;
+	background-color: rgba(253,138,109, 0.7);
+	color: #fff;
+	font-size: 1.6em;
+	width: 75%;
+	height: 50px;
+	top: 25%;
+	left: -10px;
+	line-height: 50px;
+	transform: rotate(-15deg);
+	 }
+.third:nth-child(9) h1:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    right: -24px;
+    border-top: 25px solid rgba(253,138,109, 0.7);
+    border-bottom: 25px solid rgba(253,138,109, 0.7);
+    border-left: : 25px solid rgba(253,138,109, 0.7);
+    border-right: 25px solid transparent; }
+
+@media (min-width:481px)  {
+	.third { 
+		width: 50%; }
+	}
+@media (min-width:961px)  {
+	.third { 
+	    width: 33%; }
+	.third:nth-child(4) p {
+		font-size: 1.9em; }
+}
+
+
+footer {
+	box-sizing: border-box;
+	clear: both;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	color: #bbb;
+	font-size: 0.8em;   }

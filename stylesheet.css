@@ -247,8 +247,7 @@ nav ul li a:hover {
 	top: 25%;
 	left: -10px;
 	line-height: 50px;
-	transform: rotate(-15deg);
-	 }
+	transform: rotate(-15deg);  }
 .third:nth-child(9) h1:before {
     content: "";
     height: 0;
